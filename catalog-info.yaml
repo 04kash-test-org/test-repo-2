@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-group-new-repo
+  description: Example group New Repo
+spec:
+  type: team
+  children: []
