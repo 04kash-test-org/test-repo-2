@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Group
+kind: Component
 metadata:
-  name: example-group-new-repo
-  description: Example group New Repo
+  name: example-adp-1
+  description: Professional-grade Computer perfect for faraway training and recreational use
 spec:
-  type: team
-  children: []
+  owner: team-a
+  type: library
+  lifecycle: experimental
